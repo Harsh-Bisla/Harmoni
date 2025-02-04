@@ -1,0 +1,95 @@
+.footer-container {
+    background-color: black;
+    color: white;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .col-1 {
+    line-height: 30px;
+  
+    & p span {
+      text-decoration: none;
+    }
+  
+    & h3 {
+      font-weight: 600;
+    }
+  
+    & p {
+      font-size: 12px;
+    }
+  }
+  
+  .col-1 input {
+    background: black;
+    outline: none;
+    border: 1px solid white;
+    color: rgba(255, 255, 255, 0.373);
+    padding: 6px 5px;
+    width: 120px;
+    border-right: none;
+    font-size: 12px;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    margin: 10px 0px;
+  
+    & i:hover {
+      color: #DB4444;
+      transform: scale(1.4);
+      transition: all 0.1s linear;
+    }
+  }
+  
+  .mail-btn {
+    color: white;
+    background-color: black;
+    outline: none;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-left: none;
+  }
+  
+  .copyright p {
+    text-align: center;
+    font-size: 12px;
+    color: grey;
+    padding: 10px 0px;
+  }
+  
+  .heading {
+    margin: 40px 50px;
+  
+    & p {
+      font-size: 13px;
+      cursor: pointer;
+  
+      & a {
+        text-decoration: none;
+      }
+  
+      & span {
+        color: grey;
+        text-decoration: none;
+        font-size: 13px;
+      }
+    }
+  }
+  
+  @media (max-width:600px) {
+    .footer{
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
