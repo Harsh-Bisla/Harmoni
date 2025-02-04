@@ -7,9 +7,10 @@ This is a Vite-powered project built for fast and efficient frontend development
 
 ###  Installation  
 
-####  Clone the Repository  
+##  Clone the Repository  
 
 git clone https://github.com/Harsh-Bisla/Harmoni.git
+cd Harmoni
 
 ### npm install
 ### npm run dev
